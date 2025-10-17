@@ -1,0 +1,11 @@
+﻿name: Build (ESP-IDF)
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lint scripts
+        run: echo "lint placeholder"
+      - name: Build firmware (placeholder)
+        run: echo "Install ESP-IDF and run idf.py build here"
